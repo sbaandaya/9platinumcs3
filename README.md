@@ -3,4 +3,4 @@ Simon Bernard A. Andaya                                               9 - Platin
 
 q1
 
-    [text](../../../../Downloads/ctskillsPlatinumAndaya.md)
+    
