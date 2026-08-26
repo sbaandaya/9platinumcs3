@@ -3,6 +3,8 @@ Simon Bernard A. Andaya                                               9 - Platin
 
 q1
 
-    [text](ctskillsPlatinumAndaya.md)
+    [testing](Activities/ctskillsPlatinumAndaya.md)
 
-    [text](zodiacPlatinumAndaya.py)
+    [testing](Activities/ila_oop.md)
+
+    [testing](Activities/zodiacPlatinumAndaya.py)
