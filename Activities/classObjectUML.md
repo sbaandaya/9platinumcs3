@@ -16,7 +16,7 @@
 |Updating Stock|Updates the amount of stock, adding or subtracting to the remaining stock|
 
 ## Class Diagram
-![Class Diagram](![alt text](image-1.png))
+![alt text](image-1.png)
 
 ## Design Explanation
 ### I chose this class because I was hungry when I decided to do this activity.
