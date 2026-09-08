@@ -10,3 +10,5 @@ q1
     ["zodiacPlatinumAndaya"](Activities/zodiacPlatinumAndaya.py)
 
     ["classObjectUML"](Activities/classObjectUML.md)
+
+    ["classAttributesMethods"](Activities/classAttributesMethods.md)
