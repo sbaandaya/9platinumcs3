@@ -7,7 +7,7 @@ Class: Restaurant
 Description: Has 4 attributes namely, Restaurant Name, Amount of Stock, Location, and Open. And has 4 methods, Closing, Serving, Checking Stock, and Updating Stock
 ## New Related Class
 Class: Staff
-Description: I want this class to have 4 attributes, Name, Age, Sex, and Rating. And 4 methods, Serving, Cleaning, Closing, Stocking.
+Description: I want this class to have 4 attributes, Name, Age, Profession, and Rating. And 4 methods, Serving, Cleaning, Closing, Stocking.
 ## Association
 Relationship: Restaurant has Staff. The Staff manages the Restaurant, and the Staff can be assigned to tasks within the Restaurant.
 Explanation: This is because the Staff is needed tp make the Restaurant functional. Without the Staff, the Restaurant cannot do anything.
