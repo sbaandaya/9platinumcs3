@@ -42,7 +42,7 @@ class Restaurant:
         print("New amount of stock available:", self.__updatingstock)
 
 restaurant1 = Restaurant("Served", "False", 50, 50, "Bread Talker", 50, "Open", "SM Legazpi")
-restaurant2 = Restaurant("Served", "True", 60, 60, "Bread Hater", 54, "Close", "SM Naga")
+restaurant2 = Restaurant("Served", "True", 60, 60, "Bread Hater", 60, "Close", "SM Naga")
 restaurant1.display_location()
 restaurant1.display_serving()
 restaurant1.display_closing(True)
