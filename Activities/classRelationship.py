@@ -81,6 +81,7 @@ def display_Cleaning(self):
 def display_Stocking(self):
   print("The staff stocked ", self.Stocking)
 
+
 self.related_objects = []
 
 
