@@ -54,34 +54,31 @@ restaurant2._Restaurant__change_stock(15, "minus")
 
 
 class Staff:
-  def __init__(self, Name, Age, Profession, Rating, Serving, Closing, Cleaning, Stocking):
-    self.Name = Name
-    self.Age = Age
-    self.Profession = Profession
-    self.Rating = Rating
-    self.Serving = False 
-    self.Closing = False
-    self.Cleaning = Cleaning
-    self.Stocking = Stocking
-    self.related_objects = []
-def display_Name(self):
-   print("Staff Name:", self.Name)
-def display_Age(self):
-  print("Staff Age", self.Age)
-def display_Profession(self):
-  print("Staff Profession", self.Profession)
-def display_Rating(self):
-  print("Staff Rating is", self.Rating)
-def display_Serving(self, value):
-  self.Serving = value
-def display_Closing(self, value):
-  self.Closing = value
-def display_Cleaning(self):
-  print("The staff already ", self.Cleaning)
-def display_Stocking(self):
-  print("The staff stocked ", self.Stocking)
-
-
-self.related_objects = []
+    def __init__(self, Name, Age, Profession, Rating, Serving, Closing, Cleaning, Stocking):
+        self.Name = Name
+        self.Age = Age
+        self.Profession = Profession
+        self.Rating = Rating
+        self.Serving = False 
+        self.Closing = False
+        self.Cleaning = Cleaning
+        self.Stocking = Stocking
+        self.related_objects = []
+    def display_Name(self):
+        print("Staff Name:", self.Name)
+    def display_Age(self):
+        print("Staff Age", self.Age)
+    def display_Profession(self):
+        print("Staff Profession", self.Profession)
+    def display_Rating(self):
+        print("Staff Rating is", self.Rating)
+    def display_Serving(self, value):
+        self.Serving = value
+    def display_Closing(self, value):
+        self.Closing = value
+    def display_Cleaning(self):
+        print("The staff already ", self.Cleaning)
+    def display_Stocking(self):
+        print("The staff stocked ", self.Stocking)
 
 
