@@ -1,13 +1,34 @@
+class Staff:
+    def __init__(self, Name, Age, Profession, Rating, Serving, Closing, Cleaning, Stocking):
+        self.Name = Name
+        self.Age = Age
+        self.Profession = Profession
+        self.Rating = Rating
+        self.Serving = Serving
+        self.Closing = Closing
+        self.Cleaning = Cleaning
+        self.Stocking = Stocking
+    def display_Staff(self):
+        print("Staff's Info:", self.Name, "is", self.Age, "and aiming for the", self.Profession, "and a", self.Rating)
+    def display_Serving(self, value):
+        self.Serving = value
+    def display_Closing(self, value):
+        self.Closing = value
+    def display_StaffsMethod(self):
+        print("The staff has", self.Serving, ",", self.Closing, ",", self.Cleaning, "and", self.Stocking)
+
+
 class Restaurant:
     def __init__(self, serving, closing, checkingstock, stock, restaurantname, amountofstock, openorclose, location):
         self.serving = serving
-        self.closing = False
+        self.closing = closing
         self.__checkingstock = checkingstock
         self.__updatingstock = stock
         self.restaurantname = restaurantname
         self.__amountofstock = amountofstock
         self.openorclose = openorclose
         self.location = location
+        self.related_objects = []
     def display_restaurantname(self):
         print("Restaurant Name:", self.restaurantname)
     def __display_amountofstock(self):
@@ -38,47 +59,30 @@ class Restaurant:
         print("Customer is", self.serving)
         print("The store is now", self.closing)
         self.__display_checkingstock()
-        print("New amount of stock available:", self.__updatingstock)
+    def add_item(self, item):
+        self.related_objects.append(item)
+    def display_items(self):
+        for item in self.related_objects:
+            item.display_Staff()
+            item.display_StaffsMethod()
 
-restaurant1 = Restaurant("Served", "False", 50, 50, "Bread Talker", 50, "Open", "SM Legazpi")
-restaurant2 = Restaurant("Served", "True", 60, 60, "Bread Hater", 60, "Close", "SM Naga")
-restaurant1.display_location()
-restaurant1.display_serving()
-restaurant1.display_closing(True)
-restaurant1._Restaurant__change_stock(10, "add")
+restaurant1_1 = Restaurant("Served", "False", 50, 50, "Bread Talker", 50, "Open", "SM Legazpi")
+restaurant2_1 = Restaurant("Served", "True", 60, 60, "Bread Hater", 60, "Close", "SM Naga")
+item1 = Staff("Annie", 16, "Chef", "8.75/10", False, True, "already cleaned", "done stocking")
+item2 = Staff("Frank", 23, "Server", "10/10", False, False, "already cleaned", "is stocking")
+item3 = Staff("Josh", 19, "Waiter", "6.5/10", True, False, "already cleaned", "done stocking")
+restaurant1_1.add_item(item1)
+restaurant2_1.add_item(item2)
+restaurant1_1.add_item(item3)
+restaurant1_1.display_location()
+restaurant1_1.display_serving()
+restaurant1_1.display_closing(True)
+restaurant1_1._Restaurant__change_stock(10, "add")
 print("")
-restaurant2.display_location()
-restaurant2.display_serving()
-restaurant2._Restaurant__change_stock(15, "minus")
-
-
-
-class Staff:
-    def __init__(self, Name, Age, Profession, Rating, Serving, Closing, Cleaning, Stocking):
-        self.Name = Name
-        self.Age = Age
-        self.Profession = Profession
-        self.Rating = Rating
-        self.Serving = False 
-        self.Closing = False
-        self.Cleaning = Cleaning
-        self.Stocking = Stocking
-        self.related_objects = []
-    def display_Name(self):
-        print("Staff Name:", self.Name)
-    def display_Age(self):
-        print("Staff Age", self.Age)
-    def display_Profession(self):
-        print("Staff Profession", self.Profession)
-    def display_Rating(self):
-        print("Staff Rating is", self.Rating)
-    def display_Serving(self, value):
-        self.Serving = value
-    def display_Closing(self, value):
-        self.Closing = value
-    def display_Cleaning(self):
-        print("The staff already ", self.Cleaning)
-    def display_Stocking(self):
-        print("The staff stocked ", self.Stocking)
-
-
+restaurant1_1.display_items()
+print("")
+restaurant2_1.display_location()
+restaurant2_1.display_serving()
+restaurant2_1._Restaurant__change_stock(15, "minus")
+print("")
+restaurant2_1.display_items()
