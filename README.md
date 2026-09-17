@@ -13,3 +13,9 @@ q1
 * ["classObjectUML"](Activities/classObjectUML.md)
 
 * ["classAttributesMethods"](Activities/classAttributesMethods.md)
+
+* ["classImplementation"](Activities/classImplementation.py)
+
+* ["classRelationship"](Activties/classRelationship.md)
+
+* ["classRelationship"](Activities/classRelationship.py)
