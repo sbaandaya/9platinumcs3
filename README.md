@@ -4,12 +4,12 @@
 
 q1
 
-    ["ctskillsPlatinumAnday"](Activities/ctskillsPlatinumAndaya.md)
+* ["ctskillsPlatinumAnday"](Activities/ctskillsPlatinumAndaya.md)
 
-    ["ila_oop"](Activities/ila_oop.md)
+* ["ila_oop"](Activities/ila_oop.md)
 
-    ["zodiacPlatinumAndaya"](Activities/zodiacPlatinumAndaya.py)
+* ["zodiacPlatinumAndaya"](Activities/zodiacPlatinumAndaya.py)
 
-    ["classObjectUML"](Activities/classObjectUML.md)
+* ["classObjectUML"](Activities/classObjectUML.md)
 
-    ["classAttributesMethods"](Activities/classAttributesMethods.md)
+* ["classAttributesMethods"](Activities/classAttributesMethods.md)
