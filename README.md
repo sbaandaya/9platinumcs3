@@ -1,6 +1,5 @@
 # 9platinumcs3
-# Simon Bernard A. Andaya                                               
-# 9 - Platinum
+## Simon Bernard A. Andaya                                               9 - Platinum
 
 q1
 * [ctskillsPlatinumAnday](Activities/ctskillsPlatinumAndaya.md)
