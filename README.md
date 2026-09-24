@@ -10,3 +10,5 @@ q1
 * [classImplementation](Activities/classImplementation.py)
 * [classRelationship](Activties/classRelationship.md)
 * [classRelationship](Activities/classRelationship.py)
+* [advancedRelationships](Actvities/advancedRelationships.md)
+* [advancedRelationships](Activities/advancedRelationships.py)
