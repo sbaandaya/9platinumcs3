@@ -1,7 +1,7 @@
 class Publication:
   def __init__(self, title, author):
     self.title = title
-    self.author = author
+    self.author = author #At the bottom my explanation
   def display_Info(self):
     print("Publication Information:")
     print("Title:", self.title)
@@ -10,7 +10,7 @@ class Publication:
 
 class Book(Publication):
   def __init__(self, title, author, number_of_pages):
-    super().__init__(title, author)
+    super().__init__(title, author)  #Nahirapan ako dito
     self.__number_of_pages = number_of_pages
   def display_Info(self):
       print("Book Information:")
